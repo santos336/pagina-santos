@@ -1,0 +1,158 @@
+body
+{
+  background: linear-gradient(270deg, #1E293B, #334155, #1E293B);
+  color: #cfe3f8;
+  font-family: 'Arial', sans-serif;
+}
+
+nav a
+{
+    font-size: 130%;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    padding: 8px;
+    border-bottom: 2px solid transparent; 
+}
+
+nav a:hover
+{
+    color: #60A5FA; 
+    border-bottom: 2px solid #60A5FA; 
+}
+
+
+.active {
+    color: #60A5FA;
+
+}
+
+#sobremi{
+    text-decoration: none;
+    font-size: 110%;
+    padding-left: 0.01%;
+}
+
+#sobremi:hover{
+    color: #2563EB;
+}
+
+
+footer
+{
+    color: #CBD5F5;
+    height: 4cm;
+    text-align: center;
+    margin-top: 25%;
+    background-color: #0F172A;
+}
+
+header
+{
+    background-color: #0F172A;
+    width: 100%;
+    height: 9%;
+    color: #60A5FA;
+    font-display: auto;
+    display: flex;             
+    align-items: center;
+}
+
+a
+{
+    color: #94A3B8;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 0.7cm;
+}
+
+nav
+{
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    white-space: nowrap;
+    padding-left: 62%;
+}
+
+section
+{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+
+
+label
+{
+    text-align: center;
+    color: #94A3B8;
+    font-size: 150%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.formulario
+{
+    background-color: #0F172A;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+#enviar
+{
+    background-color: #2563EB;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+    font-size: 150%;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 2%;
+
+
+}
+
+#enviar:hover{
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+}
+
+input
+{
+    background-color: #334155;
+    color: #F1F5F9;
+    border-radius: 5px;
+}
+
+.logo {
+    width: 100px;
+    transition: all 0.4s ease;
+}
+
+.logo:hover {
+    transform: rotate(360deg) scale(1.1);
+}
+
+.dw{
+   background-color: #0F172A;
+   margin-top: auto;
+   margin-bottom: 3%;
+   padding: 0.5%;
+   margin-right: 25%;
+   margin-left: 25%;
+   border-radius: 10px;
+   transition: all 0.4s ease, color 0.4s ease;
+}
+
+.dw:hover{
+    transform: scale(1.05);
+    color: #60A5FA;
+}
