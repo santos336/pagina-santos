@@ -56,6 +56,7 @@ header
     font-display: auto;
     display: flex;             
     align-items: center;
+    position: fixed;
 }
 
 a
