@@ -12,6 +12,7 @@ nav a
     text-decoration: none;
     padding: 8px;
     border-bottom: 2px solid transparent; 
+  
 }
 
 nav a:hover
@@ -74,6 +75,7 @@ nav
     padding-top: 3%;
     white-space: nowrap;
     padding-left: 62%;
+    position: sticky;
 }
 
 section
